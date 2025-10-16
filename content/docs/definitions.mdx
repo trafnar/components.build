@@ -168,7 +168,7 @@ A top-level component that supplies shared state/configuration to a subtree (e.g
 
 ### 2.6 Portal
 
-Rendering UI outside the DOM hierarchy to manage layering/stacking context (e.g., modals, popovers, toasts), while preserving a11y (focus trap, aria-modal, inert background).
+Portals allow placing content somewhere in the DOM hierarchy other than where it is being used. This is useful for managing layering/stacking of elements, by placing content at the root of the heirarchy, it can be more reliably positioned on top of other content. This is frequently used for content that is layered over the page (such as modals, popovers, and toasts), while preserving accessibility (focus trap, aria-modal, inert background).
 
 ## 3. Styling and Theming Vocabulary
 
